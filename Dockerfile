@@ -1,4 +1,4 @@
-FROM grafana/grafana:6.6.0
+FROM grafana/grafana:6.7.1
 ENV GF_PATHS_PLUGINS=/var/lib/grafana-plugins
 USER root
 RUN mkdir "$GF_PATHS_PLUGINS"  && chown grafana:grafana "$GF_PATHS_PLUGINS"
